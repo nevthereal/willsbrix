@@ -555,20 +555,12 @@ video {
   position: absolute;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .top-\[40vh\] {
   top: 40vh;
 }
 
 .m-4 {
   margin: 1rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
 }
 
 .mx-4 {
@@ -603,10 +595,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .hidden {
   display: none;
 }
@@ -639,10 +627,6 @@ video {
   width: 24rem;
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -655,14 +639,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-0 > :not([hidden]) ~ :not([hidden]) {
@@ -675,18 +661,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-x-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .scroll-smooth {
@@ -714,11 +688,6 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.border-orange-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(251 146 60 / var(--tw-border-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -731,11 +700,6 @@ video {
 .bg-cyan-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(6 182 212 / var(--tw-bg-opacity));
-}
-
-.bg-orange-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
@@ -946,11 +910,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-  }
-
   .lg\:mx-60 {
     margin-left: 15rem;
     margin-right: 15rem;
@@ -962,10 +921,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:max-w-\[80\%\] {
-    max-width: 80%;
-  }
-
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
