@@ -583,6 +583,11 @@ video {
   margin-right: auto;
 }
 
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .mt-80 {
   margin-top: 20rem;
 }
@@ -641,6 +646,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
