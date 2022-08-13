@@ -627,6 +627,34 @@ video {
   width: 75%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[\%\] {
+  width: %;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[8\2260\%\] {
+  width: 8≠%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
 .list-inside {
   list-style-position: inside;
 }
@@ -669,6 +697,10 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .scroll-smooth {
