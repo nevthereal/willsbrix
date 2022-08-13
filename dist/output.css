@@ -923,6 +923,10 @@ video {
     width: auto;
   }
 
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -959,7 +963,23 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:w-96 {
+    width: 24rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-96 {
+    width: 24rem;
+  }
+}
+
 @media (min-width: 1536px) {
+  .\32xl\:w-96 {
+    width: 24rem;
+  }
+
   .\32xl\:max-w-\[80\%\] {
     max-width: 80%;
   }
